@@ -19,9 +19,9 @@ namespace TextAdventureGame {
             Player player = new Player { Name = "", Health = 100, Gold = 0 };
 
             // Game introduction
-            WriteColoredLine("\n====================================", ConsoleColor.Cyan);
+            WriteColoredLine("\n=========================================================", ConsoleColor.Cyan);
             WriteColoredLine("        Welcome to the Text Adventure Game!        ", ConsoleColor.Yellow);
-            WriteColoredLine("====================================\n", ConsoleColor.Cyan);
+            WriteColoredLine("=========================================================\n", ConsoleColor.Cyan);
             player.Name = GetValidPlayerName();
             WriteColoredLine($"Greetings, {player.Name}! Your adventure begins now.\n", ConsoleColor.Green);
 
